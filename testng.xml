@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
 	<parameter name="browser" value="chrome"/>  
 	<parameter name="usegrid" value="yes"/> 
-	<parameter name="gridURL" value="https://oauth-bhanufaculty-3f86d:fd6b835c-5615-4d4d-881c-a29b40b8417b@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/> 
+	<parameter name="gridURL" value="${gridURL}"/> 
 	<parameter name="appURL" value="https://pos.aksharatraining.in/pos/public/"/> 
     <packages>
       <package name="script"/>
