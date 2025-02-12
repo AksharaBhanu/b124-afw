@@ -5,7 +5,7 @@
       <![CDATA[Open Chrome Browser in Local System]]>
     </line>
     <line>
-      <![CDATA[Enter the URL]]>
+      <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public]]>
     </line>
     <line>
       <![CDATA[Maximize the Browser]]>
@@ -17,18 +17,18 @@
       <![CDATA[Set ETO]]>
     </line>
     <line>
-      <![CDATA[Google]]>
+      <![CDATA[Home Page is Displayed]]>
     </line>
     <line>
       <![CDATA[Close the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-11T08:00:21 IST" name="Default suite" finished-at="2025-02-11T08:00:29 IST" duration-ms="8713">
+  <suite started-at="2025-02-12T08:17:07 IST" name="Default suite" finished-at="2025-02-12T08:17:15 IST" duration-ms="7915">
     <groups>
     </groups>
-    <test started-at="2025-02-11T08:00:21 IST" name="Default test" finished-at="2025-02-11T08:00:29 IST" duration-ms="8713">
-      <class name="script.Test3">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.Test3@235834f2]" started-at="2025-02-11T08:00:21 IST" name="preCondition" finished-at="2025-02-11T08:00:27 IST" duration-ms="6274" status="PASS">
+    <test started-at="2025-02-12T08:17:07 IST" name="Default test" finished-at="2025-02-12T08:17:15 IST" duration-ms="7915">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@235834f2]" started-at="2025-02-12T08:17:07 IST" name="preCondition" finished-at="2025-02-12T08:17:11 IST" duration-ms="3803" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,13 +45,18 @@
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://pos.aksharatraining.in/pos/public]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
             <line>
               <![CDATA[Open Chrome Browser in Local System]]>
             </line>
             <line>
-              <![CDATA[Enter the URL]]>
+              <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public]]>
             </line>
             <line>
               <![CDATA[Maximize the Browser]]>
@@ -64,21 +69,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testB()[pri:0, instance:script.Test3@235834f2]" started-at="2025-02-11T08:00:27 IST" name="testB" finished-at="2025-02-11T08:00:29 IST" duration-ms="1917" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@235834f2]" started-at="2025-02-12T08:17:11 IST" name="testValidLogin" finished-at="2025-02-12T08:17:15 IST" duration-ms="3546" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Google]]>
+              <![CDATA[Home Page is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testB -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.Test3@235834f2]" started-at="2025-02-11T08:00:29 IST" name="postCondition" finished-at="2025-02-11T08:00:29 IST" duration-ms="395" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@235834f2]" started-at="2025-02-12T08:17:15 IST" name="postCondition" finished-at="2025-02-12T08:17:15 IST" duration-ms="427" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.Test3 -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
